@@ -15,15 +15,26 @@
 // }
 
 
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 const Index = () => {
   return (
-    <View>
+    <View style={{
+      backgroundColor: "skyblue",
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+
+    }} 
+    >
       <Text>
-        Hello
+        Main Page
 
       </Text>
+      <Link href={"/menu"}>
+      Go to Menu
+      </Link>
     </View>
   );
 };
