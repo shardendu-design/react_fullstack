@@ -1,7 +1,7 @@
-import { Text, View } from "react-native";
+import { View, Text } from "react-native";
 import React from "react";
 
-const About = () => {
+const AboutScreen = () => {
   return (
     <View>
       <Text>
@@ -13,4 +13,4 @@ const About = () => {
 };
 
 
-export default About;
+export default AboutScreen;
